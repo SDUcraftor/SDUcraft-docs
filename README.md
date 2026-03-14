@@ -37,45 +37,22 @@ graph TD
     F2 --> F22[syntax.md]
     F --> F3[server_arch]
     F3 --> F31[env_cfg]
-    F31 --> F311[frp]
-    F311 --> F3111[FRP-doc.md]
-    F31 --> F312[mcsm]
-    F312 --> F3121[docker镜像上传.md]
-    F312 --> F3122[mcsm.md]
-    F312 --> F3123[image/]
-    F31 --> F313[pve]
-    F313 --> F3131[网络转发.md]
-    F313 --> F3132[image/]
+    F31 --> F311[frp/FRP-doc.md]
+    F31 --> F312[mcsm/mcsm.md]
+    F31 --> F313[pve/网络转发.md]
     A --> G[source]
-    G --> G1[css]
-    G1 --> G11[darkmode.css]
-    G1 --> G12[katex.min.css]
-    G1 --> G13[pure.css]
-    G1 --> G14[texthidden.css]
-    G1 --> G15[vue.css]
-    G1 --> G16[fonts/]
-    G --> G2[image/]
-    G2 --> G21[author/]
-    G --> G3[js]
-    G3 --> G31[author.js]
-    G3 --> G32[darkmode.js]
-    G3 --> G33[fontsize.js]
-    G3 --> G34[qa.js]
-    G3 --> G35[docsify/]
-    G35 --> G351[search.js]
-    G35 --> G352[docsify.min.js]
+    G --> G1[css/]
+    G --> G2[js/]
 
-    %% 中间节点以注释
-    F2 --> Note1[子文件夹：存放贡献者信息和语法说明]
-    F3 --> Note2[子文件夹：存放服务器架构相关文档]
-    G1 --> Note3[子文件夹：存放CSS样式文件]
-    G3 --> Note4[子文件夹：存放JS脚本文件]
+    %% 中间节点注释
+    A --> Note1[文档目录：存放主要文档内容]
+    A --> Note2[资源目录：存放样式和脚本文件]
+    F3 --> Note3[服务器架构：存放架构相关文档]
 
-    %% fancy一些
+    %% fancy
     style Note1 fill:#f9f,stroke:#333,stroke-width:2px
-    style Note2 fill:#ff9,stroke:#333,stroke-width:2px
-    style Note3 fill:#9f9,stroke:#333,stroke-width:2px
-    style Note4 fill:#9ff,stroke:#333,stroke-width:2px
+    style Note2 fill:#9f9,stroke:#333,stroke-width:2px
+    style Note3 fill:#ff9,stroke:#333,stroke-width:2px
 ```
 
 ### 🌟 核心目标
