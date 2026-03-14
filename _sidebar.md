@@ -16,6 +16,10 @@
  - [服务器运维自救级别指南](./docs/sducraft服务器运维自救级别指南v1.md)
 
 ---
+- **官网**
+  - [WordPress官网如何写新文章](./docs/web/how-to-write-post/官网WordPress如何写一篇新文章.md)
+
+---
 - **其他**
   - [贡献人员](./docs/other/contributor.md)
   - [自定义markdown语法](./docs/other/syntax.md)
