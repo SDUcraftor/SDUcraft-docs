@@ -4,4 +4,6 @@
 [author-card:matcha]
 [author-card:xhbsh]
 [author-card:kylaan]
+[author-card:Aloudname]
+[author-card:Billadom0123]
 </div>
