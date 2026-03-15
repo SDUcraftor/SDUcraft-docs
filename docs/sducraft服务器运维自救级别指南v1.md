@@ -1,6 +1,6 @@
-author@matcha
-
 # 社团 MC 服务器运维 Playbook
+
+author@matcha
 
 > 本文档用于记录当前 MC 服务器及其相关基础设施的运维规范与注意事项，面向社团管理员与已授权的运维成员。内容以**可操作性与长期维护**为目标整理。
 
@@ -63,15 +63,18 @@ author@matcha
 ### 2. 101.76.*.* 服务器
 
 #### PVE 节点
+
 - MCSM
 
 #### Web 服务
+
 - Django（历史遗留项目，**非常老，不建议继续投入精力**）
 - WordPress（新）：
   - 已由 **xhbsh** 完成主页设计
   - 文章内容尚未迁移，但预计成本不高
 
 #### 其他
+
 - Zabbix Agent
 - Portainer
 
