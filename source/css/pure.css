@@ -592,3 +592,9 @@ section.cover blockquote > p > a:hover {
   color: #000;
   color: var(--theme-color, #000);
 }
+
+#main > div:nth-child(1) > span {
+  top: -10px;
+  position: relative;
+}
+

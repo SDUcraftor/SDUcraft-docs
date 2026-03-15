@@ -18,9 +18,14 @@ var authorCss = `
 /* 左上角 author@xxx */
 .author-float-container {
     position: absolute;
-    top: -1px;
-    left: 17px;
+    top: -10px;
+    left: 14px;
     z-index: 90;
+}
+
+#main > div:nth-child(1) > span {
+    top: -10px;
+    position: ;
 }
 
 .author-float-btn {

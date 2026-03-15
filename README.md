@@ -1,6 +1,7 @@
+author@matcha
+
 # SDUcraft-docs  
 
-author@matcha
 
 **山东大学Minecraft社团技术文档库**  
 *技术传承·创新分享·兴趣联结*  
@@ -82,6 +83,8 @@ graph TD
 3. **编写文档**：按 [文档规范](#文档规范) 撰写内容，存放于 `docs/` 目录下的对应主题的子目录，如 `docs/plugin-dev/`、`docs/performance/`。如果没有对应主题的子目录，可以新建一个；  
 4. **提交 PR**：完成后提交 Pull Request 至本仓库 `main` 分支，标题注明文档主题，描述中简要说明内容亮点；  
 5. **审核与合并**：技术部核心成员将审核文档内容，通过后合并至主分支。  
+
+> 建议阅读[自定义markdown语法](./source/custom-syntax.md)文档，了解如何使用本项目自定义的特殊语法。
 
 ## 文档规范
 
