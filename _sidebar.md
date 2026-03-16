@@ -29,6 +29,7 @@
 ---
 - **官网**
   - [WordPress官网如何写新文章](./docs/web/how-to-write-post/官网WordPress如何写一篇新文章.md)
+  - [WordPress页面开发不完全指南](./docs/web/knowledge-for-wp-dev/page-dev.md)
 
 ---
 
