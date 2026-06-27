@@ -18,6 +18,11 @@
 
 ---
 
+- **Tailscale 转发**
+  - [Tailscale + mc-router 公网转发](./docs/server_arch/env_cfg/tailscale/tailscale-mcrouter.md)
+
+---
+
 - **PVE**
   - [pve网络转发](./docs/server_arch/env_cfg/pve/网络转发.md)
 
