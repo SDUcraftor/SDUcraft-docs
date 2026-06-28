@@ -13,13 +13,9 @@
 
 ---
 
-- **FRP**
-  - [公网转发配置不完全指南](./docs/server_arch/env_cfg/frp/FRP-doc.md)
-
----
-
-- **Tailscale 转发**
+- **公网转发配置指南**
   - [Tailscale + mc-router 公网转发](./docs/server_arch/env_cfg/tailscale/tailscale-mcrouter.md)
+  - [FRP 公网转发配置不完全指南](./docs/server_arch/env_cfg/frp/FRP-doc.md)
 
 ---
 
