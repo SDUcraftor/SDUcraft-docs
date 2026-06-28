@@ -4,6 +4,22 @@ author@kylaan
 
 本文档旨在帮助配置新开实例的 FRP 公网转发功能。如果有问题请联系@kylaan.
 
+# 补充
+
+不要忘了82.156.157.98也可以用来转发，200M带宽不用白不用————ShannonfAz/byd
+
+```toml
+serverAddr = "82.156.157.98"
+serverPort = 7000
+
+[[proxies]]
+name = "byd"
+type = "tcp"
+localIP = "127.0.0.1"
+localPort = 要转发的mc服务器端口
+remotePort = 你需要别人使用82.156.157.98:什么端口来登录这个服务器
+```
+
 ## 1. 推荐方案：使用预置节点
 
 @kylaan 目前已经在 **济南** 和 **青岛** 节点已预置了独立的 FRP 客户端实例。无需下载和安装，只需修改配置文件重启即可。
